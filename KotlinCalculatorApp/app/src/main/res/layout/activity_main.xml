@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/almostBlack"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:hint="Sonuç"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumText" />
+
+    <EditText
+        android:id="@+id/firstNumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="ilk numarayı giriniz"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/secondNumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="İkinci numarayı giriniz"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/firstNumText"
+        app:layout_constraintStart_toStartOf="@+id/firstNumText"
+        app:layout_constraintTop_toBottomOf="@+id/firstNumText" />
+
+    <Button
+        android:id="@+id/buttonAddition"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:background="@color/orange"
+        android:layout_marginTop="32dp"
+        android:onClick="addition"
+        android:text="+"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumText" />
+
+    <Button
+        android:id="@+id/buttonSubtraction"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:background="@color/orange"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:onClick="substraction"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@id/buttonAddition"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumText">
+
+    </Button>
+
+    <Button
+        android:id="@+id/buttonMultiplication"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="multiplication"
+        android:text="x"
+        android:background="@color/orange"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDivision"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumText" />
+
+    <Button
+        android:id="@+id/buttonDivision"
+        android:layout_width="71dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/orange"
+        android:onClick="division"
+        android:text="/"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondNumText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
