@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable batman
+drawable captainamerica
+drawable hulk
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable superman
+id imageView
+id main
+id superKahramanRecyclerView
+id textViewIsim
+id textViewMeslek
+id textViewRecyclerView
+layout activity_main
+layout activity_tanitim_aktivitesi
+layout recycler_row
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.SuperKahramanKitabi
+style Theme.SuperKahramanKitabi
+xml backup_rules
+xml data_extraction_rules

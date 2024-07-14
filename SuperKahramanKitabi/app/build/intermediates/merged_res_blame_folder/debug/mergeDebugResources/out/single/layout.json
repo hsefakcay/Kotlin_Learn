@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\hsefa\\.gradle\\daemon\\8.7\\com.hsefakcay.superkahramankitabi.app-mergeDebugResources-30:\\layout\\recycler_row.xml",
+        "source": "C:\\Users\\hsefa\\.gradle\\daemon\\8.7\\com.hsefakcay.superkahramankitabi.app-main-33:\\layout\\recycler_row.xml"
+    },
+    {
+        "merged": "com.hsefakcay.superkahramankitabi.app-mergeDebugResources-30:/layout/activity_tanitim_aktivitesi.xml",
+        "source": "com.hsefakcay.superkahramankitabi.app-main-33:/layout/activity_tanitim_aktivitesi.xml"
+    },
+    {
+        "merged": "C:\\Users\\hsefa\\.gradle\\daemon\\8.7\\com.hsefakcay.superkahramankitabi.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\hsefa\\.gradle\\daemon\\8.7\\com.hsefakcay.superkahramankitabi.app-main-33:\\layout\\activity_main.xml"
+    }
+]
