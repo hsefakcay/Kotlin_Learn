@@ -18,5 +18,9 @@
         android:id="@+id/ikinciFragment"
         android:name="com.hsefakcay.fragmentvenavigationornekleri.IkinciFragment"
         android:label="fragment_ikinci"
-        tools:layout="@layout/fragment_ikinci" />
+        tools:layout="@layout/fragment_ikinci" >
+        <argument
+            android:name="kullaniciAdi"
+            app:argType="string" />
+    </fragment>
 </navigation>
