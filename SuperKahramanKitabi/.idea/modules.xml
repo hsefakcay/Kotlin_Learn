@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SuperKahramanKitabi.iml" filepath="$PROJECT_DIR$/.idea/modules/SuperKahramanKitabi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SuperKahramanKitabi.app.unitTest.iml" />
     </modules>
   </component>
 </project>
