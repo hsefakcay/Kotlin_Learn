@@ -4,97 +4,62 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9e0497b-a732-44bd-b3e6-31ef2e832859" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/androidTest/java/com/hsefakcay/yemekkitabi/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/ListeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/TarifFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/drawable/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/fragment_liste.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/fragment_tarif.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/recycler_row.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/test/java/com/hsefakcay/yemekkitabi/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YemekKitabi/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hsefakcay/bilgisaklamaprojesi/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hsefakcay/bilgisaklamaprojesi/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/hsefakcay/bilgisaklamaprojesi/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+    <list default="true" id="b9e0497b-a732-44bd-b3e6-31ef2e832859" name="Changes" comment="--created yemekKitabi learn permission">
+      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/model/Tarif.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/view/TarifFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/BTKAkademi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/deploymentTargetSelector.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BilgiSaklamaProjesi/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/androidTest/java/com/hsefakcay/bilgisaklamaprojesi/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/java/com/hsefakcay/bilgisaklamaprojesi/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/app/src/test/java/com/hsefakcay/bilgisaklamaprojesi/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/gradle/libs.versions.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BilgiSaklamaProjesi/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/ListeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/view/ListeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/view/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/java/com/hsefakcay/yemekkitabi/TarifFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/fragment_liste.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/fragment_liste.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/fragment_tarif.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/layout/fragment_tarif.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YemekKitabi/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +88,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -172,6 +138,27 @@
       <option name="presentableId" value="Default" />
       <updated>1721162806299</updated>
     </task>
+    <task id="LOCAL-00001" summary="--created yemekKitabi learn permission">
+      <option name="closed" value="true" />
+      <created>1721422994665</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721422994665</updated>
+    </task>
+    <task id="LOCAL-00002" summary="--created yemekKitabi learn permission">
+      <option name="closed" value="true" />
+      <created>1721423011113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721423011113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="--created yemekKitabi learn permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="--created yemekKitabi learn permission" />
   </component>
 </project>
