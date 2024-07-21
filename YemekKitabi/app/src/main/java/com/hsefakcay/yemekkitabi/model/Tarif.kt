@@ -17,7 +17,7 @@ data class Tarif(
     @ColumnInfo(name = "gorsel")
     var gorsel : ByteArray
 
-){
+)  {
     //hazır id oluşturma
     @PrimaryKey(autoGenerate = true)
     var id = 0

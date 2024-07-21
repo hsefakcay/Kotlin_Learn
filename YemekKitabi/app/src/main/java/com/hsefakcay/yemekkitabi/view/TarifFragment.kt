@@ -72,6 +72,8 @@ class TarifFragment : Fragment() {
     }
 
     fun kaydet(view: View){
+        val isim = binding.editTextIsim.text.toString()
+        val malzeme = binding.editTextIcindekiler.text.toString()
 
     }
 
@@ -168,8 +170,8 @@ class TarifFragment : Fragment() {
                 Toast.makeText(requireContext(),"izin verilmedi !", Toast.LENGTH_LONG).show()
             }
         }
-
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
