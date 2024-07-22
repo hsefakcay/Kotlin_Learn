@@ -6,16 +6,32 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.room.Room
+import com.hsefakcay.yemekkitabi.adapter.TarifAdapter
 import com.hsefakcay.yemekkitabi.databinding.FragmentListeBinding
+import com.hsefakcay.yemekkitabi.model.Tarif
+import com.hsefakcay.yemekkitabi.roomdb.TarifDAO
+import com.hsefakcay.yemekkitabi.roomdb.TarifDatabase
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.disposables.CompositeDisposable
+import io.reactivex.rxjava3.schedulers.Schedulers
 
 
 class ListeFragment : Fragment() {
 
     private var _binding: FragmentListeBinding? = null
     private val binding get() = _binding!!
+    private lateinit var db: TarifDatabase
+    private lateinit var tarifDao : TarifDAO
+    private val mDisposable = CompositeDisposable()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        db = Room.databaseBuilder(requireContext(),TarifDatabase::class.java,"Tarifler").build()
+        tarifDao = db.TarifDAO()
 
     }
 
@@ -33,16 +49,34 @@ class ListeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.floatingActionButton.setOnClickListener { yeniEkle(it) }
+        binding.tarifRecyclerView.layoutManager = LinearLayoutManager(requireContext())
+        verileriAl()
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+    private fun verileriAl(){
+        mDisposable.add(
+            tarifDao.getAll()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(this::handleResponse)
+        )
+    }
+    private fun handleResponse(tarifler: List<Tarif>){
+        val adapter = TarifAdapter(tarifler)
+        binding.tarifRecyclerView.adapter = adapter
     }
 
     fun yeniEkle(view: View){
         val action = ListeFragmentDirections.actionListeFragmentToTarifFragment("yeni", 0)
         Navigation.findNavController(view).navigate(action)
     }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+        mDisposable.clear()
+
+    }
+
 
 }

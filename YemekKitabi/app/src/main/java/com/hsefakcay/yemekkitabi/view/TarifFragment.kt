@@ -18,8 +18,18 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.navigation.Navigation
+import androidx.room.Room
 import com.google.android.material.snackbar.Snackbar
 import com.hsefakcay.yemekkitabi.databinding.FragmentTarifBinding
+import com.hsefakcay.yemekkitabi.model.Tarif
+import com.hsefakcay.yemekkitabi.roomdb.TarifDAO
+import com.hsefakcay.yemekkitabi.roomdb.TarifDatabase
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
+import io.reactivex.rxjava3.core.Scheduler
+import io.reactivex.rxjava3.disposables.CompositeDisposable
+import io.reactivex.rxjava3.schedulers.Schedulers
+import java.io.ByteArrayOutputStream
 
 
 class TarifFragment : Fragment() {
@@ -30,10 +40,18 @@ class TarifFragment : Fragment() {
     private lateinit var activityResultLauncher: ActivityResultLauncher<Intent> //galeriye gitmek için
     private var secilenGorsel : Uri? = null
     private var secilenBitmap : Bitmap? = null
+    private val mDisposable = CompositeDisposable()
+
+    private lateinit var db: TarifDatabase
+    private lateinit var tarifDao : TarifDAO
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         registerLancher()
+
+        //initialize
+        db = Room.databaseBuilder(requireContext(),TarifDatabase::class.java,"Tarifler").build()
+        tarifDao = db.TarifDAO()
     }
 
     override fun onCreateView(
@@ -75,6 +93,28 @@ class TarifFragment : Fragment() {
         val isim = binding.editTextIsim.text.toString()
         val malzeme = binding.editTextIcindekiler.text.toString()
 
+        if (secilenBitmap != null){
+            val kucukBitmap = kucukBitmapOlustur(secilenBitmap!!,300 )
+            val outputStream = ByteArrayOutputStream()
+            kucukBitmap.compress(Bitmap.CompressFormat.PNG, 50, outputStream)
+            val byteDizisi = outputStream.toByteArray()
+
+            val tarif = Tarif(isim,malzeme,byteDizisi)
+
+            //RxJava
+            mDisposable.add(
+                tarifDao.insert(tarif)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(this::handleResponseForInsert)
+            )
+        }
+    }
+
+    private fun handleResponseForInsert(){
+        //bir önceki fragment'a dön
+        val action = TarifFragmentDirections.actionTarifFragmentToListeFragment()
+        Navigation.findNavController(requireView()).navigate(action)
     }
 
     fun sil(view: View){
@@ -172,9 +212,29 @@ class TarifFragment : Fragment() {
         }
     }
 
+    private fun kucukBitmapOlustur(kullanicininSectigiBitmap : Bitmap, maximumBoyut : Int) : Bitmap{
+        var width = kullanicininSectigiBitmap.width
+        var height = kullanicininSectigiBitmap.height
+
+        val bitmapOrani : Double = width.toDouble()/ height.toDouble()
+
+        if(bitmapOrani > 1){
+            //gorsel yatay
+            width = maximumBoyut
+            val kisaltilmisYukseklik = width / bitmapOrani
+            height = kisaltilmisYukseklik.toInt()
+        }else {
+            //gorsel dikey
+            height = maximumBoyut
+            val kisaltilmisGenislik = height * bitmapOrani
+            width = kisaltilmisGenislik.toInt()
+        }
+        return Bitmap.createScaledBitmap(kullanicininSectigiBitmap, height, width, true)
+    }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+        mDisposable.clear()
     }
 }
